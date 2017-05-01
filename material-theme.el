@@ -211,7 +211,7 @@
    ;; Emacs interface
    `(cursor ((,class (:background ,orange))))
    `(fringe ((,class (:background ,background))))
-   `(linum ((,class (:background ,background :foreground ,subtle))))
+   `(linum ((,class (:foreground ,subtle))))
    `(linum-highlight-face ((,class (:background ,current-line :foreground ,foreground))))
    `(border ((,class (:background ,current-line))))
    `(vertical-border ((,class (:background ,selection
