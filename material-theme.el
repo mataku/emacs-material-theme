@@ -605,7 +605,7 @@
    ;; `(company-echo ((,class ())))
    ;; `(company-echo-common ((,class ())))
 
-   `(company-preview ((,class (:foreground ,comment :background ,inactive-gray))))
+   `(company-preview ((,class (:foreground ,comment :background ,"#FFF"))))
    `(company-preview-common ((,class (:foreground ,comment :background ,inactive-gray)))) ; same background as highlight-line
    ;; `(company-preview-search ((,class ())))
    `(company-scrollbar-bg ((,class (:background "#F0F0F0"))))
